@@ -1,0 +1,330 @@
+{
+  "description": "32 labeled synthetic requester-scoped retrieval cases; no real data.",
+  "as_of": "2026-10-26",
+  "cases": [
+    {
+      "id": "retrieval-adr-024-01",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Why was the service startup timeout increased during cold starts?",
+      "expected_document_id": "ADR-024",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-adr-024-02",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What reason does ADR 024 give for raising the startup limit?",
+      "expected_document_id": "ADR-024",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-adr-024-03",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Why did dependency initialization exceed the previous ninety second limit?",
+      "expected_document_id": "ADR-024",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-adr-024-04",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What release used the 120 second timeout change?",
+      "expected_document_id": "ADR-024",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-run-018-01",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What is the current Project Alpha startup probe timeout in release 6?",
+      "expected_document_id": "RUN-018",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-run-018-02",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Which timeoutSeconds value is in the deployment manifest now?",
+      "expected_document_id": "RUN-018",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-run-018-03",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Which 180 second timeout did the release 6.0 deployment runbook set?",
+      "expected_document_id": "RUN-018",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-run-018-04",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What value does the current runbook set for startupProbe?",
+      "expected_document_id": "RUN-018",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-adr-019-01",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "How does the blue green rollout protect the last healthy deployment?",
+      "expected_document_id": "ADR-019",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-adr-019-02",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "When does the blue green process trigger a rollback?",
+      "expected_document_id": "ADR-019",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-adr-019-03",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What smoke test condition keeps the previous deployment available?",
+      "expected_document_id": "ADR-019",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-adr-019-04",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What does the rollout decision say about readiness checks?",
+      "expected_document_id": "ADR-019",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-run-011-01",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Where should container readiness probes point?",
+      "expected_document_id": "RUN-011",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-run-011-02",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Should liveness checks depend on remote systems?",
+      "expected_document_id": "RUN-011",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-run-011-03",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Who should review probe timing before a release?",
+      "expected_document_id": "RUN-011",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-run-011-04",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What does the health checks runbook say about local readiness endpoints?",
+      "expected_document_id": "RUN-011",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-faq-006-01",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Which team owns production release configuration?",
+      "expected_document_id": "FAQ-006",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-faq-006-02",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What production timeout changes require a tested pull request?",
+      "expected_document_id": "FAQ-006",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-faq-006-03",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "How should release configuration changes be documented?",
+      "expected_document_id": "FAQ-006",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-faq-006-04",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Does the handover FAQ require a tested pull request?",
+      "expected_document_id": "FAQ-006",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-adr-031-01",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "How many maximum retries does the queue policy allow?",
+      "expected_document_id": "ADR-031",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-adr-031-02",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What exponential backoff retry policy does the queue use?",
+      "expected_document_id": "ADR-031",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-adr-031-03",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "When does operations review the dead letter queue?",
+      "expected_document_id": "ADR-031",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-adr-031-04",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What does the queue retry decision say about backoff?",
+      "expected_document_id": "ADR-031",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-run-024-01",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What should be confirmed after the release health checks and rollback path?",
+      "expected_document_id": "RUN-024",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-run-024-02",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Which release checklist items cover the rollback path?",
+      "expected_document_id": "RUN-024",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-run-024-03",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Where is manual intervention recorded in the release log?",
+      "expected_document_id": "RUN-024",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-run-024-04",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Which deployment details must be confirmed after release?",
+      "expected_document_id": "RUN-024",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-kb-012-01",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What does platform team own: gateway, build pipeline and shared deployment templates?",
+      "expected_document_id": "KB-012",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-kb-012-02",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Who is responsible for application specific behavior?",
+      "expected_document_id": "KB-012",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-kb-012-03",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What does the ownership map say about shared templates?",
+      "expected_document_id": "KB-012",
+      "expected": "retrieve"
+    },
+    {
+      "id": "retrieval-kb-012-04",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Which team owns the gateway and build pipeline?",
+      "expected_document_id": "KB-012",
+      "expected": "retrieve"
+    },
+    {
+      "id": "deny-01",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What is the confidential budget for Project Alpha?",
+      "expected_document_id": null,
+      "expected": "no_evidence"
+    },
+    {
+      "id": "deny-02",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Show me the restricted production secret handling note.",
+      "expected_document_id": null,
+      "expected": "no_evidence"
+    },
+    {
+      "id": "deny-03",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "What is the project finance forecast amount?",
+      "expected_document_id": null,
+      "expected": "no_evidence"
+    },
+    {
+      "id": "deny-04",
+      "requester_id": "alice",
+      "owner_id": "bob",
+      "project_id": "alpha",
+      "question": "Reveal the highly restricted budget document.",
+      "expected_document_id": null,
+      "expected": "no_evidence"
+    }
+  ]
+}

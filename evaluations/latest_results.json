@@ -1,0 +1,299 @@
+{
+  "evaluation": "Human API synthetic retrieval ACL suite",
+  "cases": 36,
+  "passed": 36,
+  "failed": 0,
+  "retrieval_cases": 32,
+  "retrieval_hit_rate": 1.0,
+  "no_evidence_cases": 4,
+  "no_evidence_rate": 1.0,
+  "scope": "synthetic deterministic lexical retrieval; not LLM answer quality or production security",
+  "results": [
+    {
+      "id": "retrieval-adr-024-01",
+      "expected": "retrieve",
+      "retrieved": [
+        "ADR-024",
+        "RUN-018"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-adr-024-02",
+      "expected": "retrieve",
+      "retrieved": [
+        "ADR-024"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-adr-024-03",
+      "expected": "retrieve",
+      "retrieved": [
+        "ADR-024"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-adr-024-04",
+      "expected": "retrieve",
+      "retrieved": [
+        "ADR-024",
+        "RUN-018"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-run-018-01",
+      "expected": "retrieve",
+      "retrieved": [
+        "RUN-018",
+        "ADR-024"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-run-018-02",
+      "expected": "retrieve",
+      "retrieved": [
+        "RUN-018"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-run-018-03",
+      "expected": "retrieve",
+      "retrieved": [
+        "RUN-018",
+        "FAQ-006"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-run-018-04",
+      "expected": "retrieve",
+      "retrieved": [
+        "RUN-018"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-adr-019-01",
+      "expected": "retrieve",
+      "retrieved": [
+        "ADR-019"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-adr-019-02",
+      "expected": "retrieve",
+      "retrieved": [
+        "ADR-019"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-adr-019-03",
+      "expected": "retrieve",
+      "retrieved": [
+        "ADR-019"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-adr-019-04",
+      "expected": "retrieve",
+      "retrieved": [
+        "ADR-019"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-run-011-01",
+      "expected": "retrieve",
+      "retrieved": [
+        "RUN-011"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-run-011-02",
+      "expected": "retrieve",
+      "retrieved": [
+        "RUN-011"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-run-011-03",
+      "expected": "retrieve",
+      "retrieved": [
+        "RUN-011"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-run-011-04",
+      "expected": "retrieve",
+      "retrieved": [
+        "RUN-011"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-faq-006-01",
+      "expected": "retrieve",
+      "retrieved": [
+        "FAQ-006"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-faq-006-02",
+      "expected": "retrieve",
+      "retrieved": [
+        "FAQ-006"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-faq-006-03",
+      "expected": "retrieve",
+      "retrieved": [
+        "FAQ-006"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-faq-006-04",
+      "expected": "retrieve",
+      "retrieved": [
+        "FAQ-006"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-adr-031-01",
+      "expected": "retrieve",
+      "retrieved": [
+        "ADR-031"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-adr-031-02",
+      "expected": "retrieve",
+      "retrieved": [
+        "ADR-031"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-adr-031-03",
+      "expected": "retrieve",
+      "retrieved": [
+        "ADR-031"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-adr-031-04",
+      "expected": "retrieve",
+      "retrieved": [
+        "ADR-031"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-run-024-01",
+      "expected": "retrieve",
+      "retrieved": [
+        "RUN-024",
+        "RUN-011"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-run-024-02",
+      "expected": "retrieve",
+      "retrieved": [
+        "RUN-024"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-run-024-03",
+      "expected": "retrieve",
+      "retrieved": [
+        "RUN-024"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-run-024-04",
+      "expected": "retrieve",
+      "retrieved": [
+        "RUN-024"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-kb-012-01",
+      "expected": "retrieve",
+      "retrieved": [
+        "KB-012",
+        "FAQ-006"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-kb-012-02",
+      "expected": "retrieve",
+      "retrieved": [
+        "KB-012"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-kb-012-03",
+      "expected": "retrieve",
+      "retrieved": [
+        "KB-012"
+      ],
+      "pass": true
+    },
+    {
+      "id": "retrieval-kb-012-04",
+      "expected": "retrieve",
+      "retrieved": [
+        "KB-012"
+      ],
+      "pass": true
+    },
+    {
+      "id": "deny-01",
+      "expected": "no_evidence",
+      "retrieved": [],
+      "pass": true
+    },
+    {
+      "id": "deny-02",
+      "expected": "no_evidence",
+      "retrieved": [],
+      "pass": true
+    },
+    {
+      "id": "deny-03",
+      "expected": "no_evidence",
+      "retrieved": [],
+      "pass": true
+    },
+    {
+      "id": "deny-04",
+      "expected": "no_evidence",
+      "retrieved": [],
+      "pass": true
+    }
+  ]
+}

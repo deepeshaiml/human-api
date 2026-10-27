@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#102c29"/><stop offset="1" stop-color="#193b36"/></linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0,0 L10,6 L0,12 Z" fill="#a9d8c8"/></marker>
+    <style>
+      .title{font:700 38px Arial,sans-serif;fill:#f6f6f0}.sub{font:16px Arial,sans-serif;fill:#b9ccc4}
+      .head{font:700 18px Arial,sans-serif;fill:#f8fbf7}.body{font:14px Arial,sans-serif;fill:#d8e5df}
+      .tiny{font:12px Arial,sans-serif;fill:#abc2b8}.box{fill:#21443e;stroke:#568277;stroke-width:2}
+      .soft{fill:#263d39;stroke:#71958a;stroke-width:1.5}.highlight{fill:#c0e9d8;stroke:#c0e9d8;stroke-width:1.5}
+      .highlightText{font:700 17px Arial,sans-serif;fill:#12332f}.coral{fill:#fd8a72;stroke:#fd8a72;stroke-width:1.5}
+      .coralText{font:700 16px Arial,sans-serif;fill:#39251e}.line{stroke:#a9d8c8;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .dashed{stroke:#8fb5a7;stroke-width:2;fill:none;stroke-dasharray:8 8;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="70" y="78" class="title">Human API | governed knowledge continuity</text>
+  <text x="70" y="112" class="sub">Deterministic policy and authorization around an evidence answer or a human handoff</text>
+
+  <rect x="70" y="170" width="230" height="130" rx="20" class="soft"/>
+  <text x="95" y="212" class="head">People and Teams</text>
+  <text x="95" y="243" class="body">Requester · knowledge owner</text>
+  <text x="95" y="267" class="body">Manager · security admin</text>
+
+  <rect x="355" y="170" width="255" height="130" rx="20" class="box"/>
+  <text x="380" y="212" class="head">Question API</text>
+  <text x="380" y="243" class="body">Identity · project · topic</text>
+  <text x="380" y="267" class="body">Deadline · durable state</text>
+
+  <rect x="665" y="170" width="270" height="130" rx="20" class="highlight"/>
+  <text x="690" y="212" class="highlightText">Delegation policy</text>
+  <text x="690" y="243" class="highlightText">Owner consent · audience</text>
+  <text x="690" y="267" class="highlightText">Dates · manager approval</text>
+
+  <rect x="990" y="170" width="250" height="130" rx="20" class="box"/>
+  <text x="1015" y="212" class="head">Requester authorization</text>
+  <text x="1015" y="243" class="body">Live membership and ACL</text>
+  <text x="1015" y="267" class="body">Deny before retrieval</text>
+
+  <rect x="1295" y="170" width="235" height="130" rx="20" class="soft"/>
+  <text x="1320" y="212" class="head">Audit and state</text>
+  <text x="1320" y="243" class="body">SQLite demo / PostgreSQL</text>
+  <text x="1320" y="267" class="body">Versioned policy · history</text>
+
+  <path d="M300 235 H350" class="line"/><path d="M610 235 H660" class="line"/>
+  <path d="M935 235 H985" class="line"/><path d="M1240 235 H1290" class="line"/>
+
+  <rect x="250" y="410" width="330" height="165" rx="20" class="box"/>
+  <text x="280" y="455" class="head">Authorized retrieval</text>
+  <text x="280" y="490" class="body">Approved SharePoint / synthetic docs</text>
+  <text x="280" y="517" class="body">Versioned evidence · ACL first</text>
+  <text x="280" y="544" class="tiny">Graph adapter is not tenant tested</text>
+
+  <rect x="660" y="410" width="330" height="165" rx="20" class="highlight"/>
+  <text x="690" y="455" class="highlightText">Evidence validation</text>
+  <text x="690" y="490" class="highlightText">Sufficient? Current? Conflict?</text>
+  <text x="690" y="517" class="highlightText">Evidence only, no guessed facts</text>
+  <text x="690" y="544" class="tiny" style="fill:#45655b">Deterministic demo, no LLM call</text>
+
+  <rect x="1070" y="410" width="250" height="165" rx="20" class="box"/>
+  <text x="1100" y="455" class="head">Human review</text>
+  <text x="1100" y="490" class="body">Owner or backup expert</text>
+  <text x="1100" y="517" class="body">Correction needs approval</text>
+  <text x="1100" y="544" class="body">before reuse</text>
+
+  <rect x="250" y="650" width="330" height="125" rx="20" class="highlight"/>
+  <text x="280" y="696" class="highlightText">Cited AI answer</text>
+  <text x="280" y="730" class="highlightText">Partial answer + clear limits</text>
+
+  <rect x="660" y="650" width="330" height="125" rx="20" class="coral"/>
+  <text x="690" y="696" class="coralText">Abstain and escalate</text>
+  <text x="690" y="730" class="coralText">No evidence or contradiction</text>
+
+  <path d="M1110 300 C1110 355 420 345 420 405" class="line"/>
+  <path d="M580 492 H655" class="line"/>
+  <path d="M825 575 V645" class="line"/>
+  <path d="M825 575 C825 610 545 610 545 645" class="line"/>
+  <path d="M1070 493 H995" class="dashed"/>
+  <path d="M1240 300 C1240 620 1230 620 1230 650" class="dashed"/>
+
+  <text x="70" y="845" class="tiny">MVP boundary: local demo logic is implemented; Entra/Graph and Teams require tenant configuration and end-to-end validation.</text>
+</svg>
